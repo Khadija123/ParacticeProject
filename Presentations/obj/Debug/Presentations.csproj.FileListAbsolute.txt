@@ -41,3 +41,30 @@ C:\Users\Khadija Wazir\Documents\PatientManagement\Presentations\obj\Debug\Pages
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Presentations.exe.config
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.exe
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Presentations.exe.config
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.exe
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Presentations.exe
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Presentations.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\DAL.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\ErrorLogNet.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\MahApps.Metro.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\MahApps.Metro.xml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.csprojResolveAssemblyReference.cache
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\MainWindow.baml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Pages\frmBookingDashboard.baml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Pages\frmPatientRegistration.baml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\App.baml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\MainWindow.g.cs
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Pages\frmBookingDashboard.g.cs
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Pages\frmPatientRegistration.g.cs
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\App.g.cs
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations_MarkupCompile.cache
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.g.resources
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.Properties.Resources.resources
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\Presentations.csproj.GenerateResource.Cache
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Repository.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Services.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Repository.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\bin\Debug\Services.pdb

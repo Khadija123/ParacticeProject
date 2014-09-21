@@ -42,7 +42,7 @@
             <PasswordBox x:Name="txtpass" HorizontalAlignment="Center" VerticalAlignment="Top" Password="Password" FontSize="20" Foreground="LightGray" Width="302" Height="44" Margin="10" GotFocus="txtpass_GotFocus" LostFocus="txtpass_LostFocus"/>
             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Height="22" Width="133" ></TextBlock>
             <CheckBox Content="Keep me signed in" Height="23" HorizontalAlignment="Center" Margin="106,0,232,0" Width="202" />
-            <Button Content="Member sign in" Background="LightGray" Height="42" Width="324" HorizontalAlignment="Center" Margin="10"/>
+            <Button Content="Member sign in" Background="LightGray" Height="42" Width="324" HorizontalAlignment="Center" Margin="10" Click="Button_Click"/>
            
             <Label Content="------------------------------- OR --------------------------------" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20" />
             <Button Content="Create Account" Background="LightBlue" HorizontalAlignment="Center" VerticalAlignment="Top" Width="324" Height="42" Margin="10"/>

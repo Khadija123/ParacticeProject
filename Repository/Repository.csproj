@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DAL">
+      <HintPath>F:\OFFICE WORK\TRTMDesktop     18-9-2014\TRTMDesktop\BLL\bin\Debug\DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorLogNet">
+      <HintPath>F:\OFFICE WORK\TRTMDesktop     18-9-2014\TRTMDesktop\BLL\bin\Debug\ErrorLogNet.dll</HintPath>
+    </Reference>
     <Reference Include="MahApps.Metro">
       <HintPath>..\packages\MahApps.Metro.0.14.0.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
@@ -45,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class Files\LoggedUser.cs" />
+    <Compile Include="Class Files\VerifyingUser.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
