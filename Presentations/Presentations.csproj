@@ -79,6 +79,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\PatientRegistration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\TestPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +94,9 @@
     </Compile>
     <Compile Include="Pages\frmPatientRegistration.xaml.cs">
       <DependentUpon>frmPatientRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PatientRegistration.xaml.cs">
+      <DependentUpon>PatientRegistration.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TestPage.xaml.cs">
       <DependentUpon>TestPage.xaml</DependentUpon>
