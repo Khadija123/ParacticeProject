@@ -16,15 +16,17 @@ using System.Data;
 using Services;
 using Repository.Class_Files;
 using ErrorLogNet;
+using System.Data.Sql;
+
 
 namespace Presentations.Pages
 {
     /// <summary>
     /// Interaction logic for frmPatientRegistration.xaml
     /// </summary>
-    public partial class frmPatientRegistration
+    public partial class frmLogin
     {
-        public frmPatientRegistration()
+        public frmLogin()
         {
             InitializeComponent();
         }
@@ -86,6 +88,7 @@ namespace Presentations.Pages
             {
                 ErrorLog elog = new ErrorLog();
                 LoggedUser objUser = new LoggedUser();
+         
                 objUser.USERNAME = txtname.Text.ToLower();
                 objUser.PASSWORD = txtpass.Password;
                 ManagementServices objServices = new ManagementServices();

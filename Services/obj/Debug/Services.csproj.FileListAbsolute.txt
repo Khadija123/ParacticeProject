@@ -17,3 +17,15 @@ C:\Users\M.Bashir\Source\Repos\ParacticeProject\Services\bin\Debug\MahApps.Metro
 C:\Users\M.Bashir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\M.Bashir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.dll
 C:\Users\M.Bashir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.pdb
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\Services.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\Services.pdb
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\DAL.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\ErrorLogNet.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\MahApps.Metro.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\Repository.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\Repository.pdb
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\bin\Debug\MahApps.Metro.xml
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Services\obj\Debug\Services.pdb

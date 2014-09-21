@@ -22,6 +22,12 @@ namespace Services
             VerifyingUser obj = new VerifyingUser();
             return obj.UserAttentication(ref elog, user.USERNAME, user.PASSWORD);
         }
+
+        public int PatientInsertionServices(ref ErrorLog elog, BCPropOfPatient objPropOfPatient)
+        {
+            BCPatientRegistration objPR = new BCPatientRegistration();
+            return objPR.PatientInsertion(ref elog, objPropOfPatient);
+        }
         #endregion
     }
 }

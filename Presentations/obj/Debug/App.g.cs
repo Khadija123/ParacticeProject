@@ -53,7 +53,7 @@ namespace Presentations {
             _contentLoaded = true;
             
             #line 4 "..\..\App.xaml"
-            this.StartupUri = new System.Uri("Pages/frmPatientRegistration.xaml", System.UriKind.Relative);
+            this.StartupUri = new System.Uri("Pages/PatientRegistration.xaml", System.UriKind.Relative);
             
             #line default
             #line hidden

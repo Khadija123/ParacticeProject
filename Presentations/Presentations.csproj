@@ -35,10 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DAL">
-      <HintPath>F:\OFFICE WORK\TRTMDesktop     18-9-2014\TRTMDesktop\BLL\bin\Debug\DAL.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\PayRoll\Repository\bin\Debug\DAL.dll</HintPath>
     </Reference>
     <Reference Include="ErrorLogNet">
-      <HintPath>F:\OFFICE WORK\TRTMDesktop     18-9-2014\TRTMDesktop\BLL\bin\Debug\ErrorLogNet.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\PayRoll\Repository\bin\Debug\ErrorLogNet.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro">
       <HintPath>..\packages\MahApps.Metro.0.14.0.0\lib\net45\MahApps.Metro.dll</HintPath>
@@ -81,7 +81,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\frmPatientRegistration.xaml">
+    <Page Include="Pages\frmLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PatientRegistration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -94,8 +98,11 @@
     <Compile Include="Pages\frmBookingDashboard.xaml.cs">
       <DependentUpon>frmBookingDashboard.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\frmPatientRegistration.xaml.cs">
-      <DependentUpon>frmPatientRegistration.xaml</DependentUpon>
+    <Compile Include="Pages\frmLogin.xaml.cs">
+      <DependentUpon>frmLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PatientRegistration.xaml.cs">
+      <DependentUpon>PatientRegistration.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TestPage.xaml.cs">
       <DependentUpon>TestPage.xaml</DependentUpon>
@@ -145,9 +152,7 @@
       <Name>Services</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\appoitment.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
