@@ -1,0 +1,1 @@
+c:\users\m.bashir\documents\visual studio 2013\Projects\PatientManagement\PatientManagement\bin\Debug\PatientManagement.exe.config

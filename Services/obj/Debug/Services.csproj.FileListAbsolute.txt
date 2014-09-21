@@ -1,0 +1,7 @@
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\bin\Debug\Services.dll
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\bin\Debug\Services.pdb
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\bin\Debug\MahApps.Metro.dll
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\bin\Debug\MahApps.Metro.xml
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\obj\Debug\Services.dll
+C:\Users\Khadija Wazir\Documents\PatientManagement\Services\obj\Debug\Services.pdb
