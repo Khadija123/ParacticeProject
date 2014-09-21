@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DAL">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\PayRoll\Repository\bin\Debug\DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorLogNet">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Projects\PayRoll\Repository\bin\Debug\ErrorLogNet.dll</HintPath>
+    </Reference>
     <Reference Include="MahApps.Metro">
       <HintPath>..\packages\MahApps.Metro.0.14.0.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
@@ -75,7 +81,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\frmPatientRegistration.xaml">
+    <Page Include="Pages\frmLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,8 +98,8 @@
     <Compile Include="Pages\frmBookingDashboard.xaml.cs">
       <DependentUpon>frmBookingDashboard.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\frmPatientRegistration.xaml.cs">
-      <DependentUpon>frmPatientRegistration.xaml</DependentUpon>
+    <Compile Include="Pages\frmLogin.xaml.cs">
+      <DependentUpon>frmLogin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PatientRegistration.xaml.cs">
       <DependentUpon>PatientRegistration.xaml</DependentUpon>
@@ -136,6 +142,17 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{3e0858e6-b153-4421-84e4-3ed1330e28ff}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{5d666599-2ba0-4993-a956-e092831042c5}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

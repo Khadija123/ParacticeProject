@@ -12,15 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using System.Data;
+using Services;
+using Repository.Class_Files;
+using ErrorLogNet;
+using System.Data.Sql;
+
 
 namespace Presentations.Pages
 {
     /// <summary>
     /// Interaction logic for frmPatientRegistration.xaml
     /// </summary>
-    public partial class frmPatientRegistration
+    public partial class frmLogin
     {
-        public frmPatientRegistration()
+        public frmLogin()
         {
             InitializeComponent();
         }
@@ -29,7 +35,8 @@ namespace Presentations.Pages
         {
 
         }
-
+        #region MAINTAINING THE STAND BY TEXT OF USERNAME AND PASSWORD
+        
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)
         {
            if(txtname.Text=="Email Address")
@@ -63,6 +70,33 @@ namespace Presentations.Pages
             {
                 txtpass.Password = "Password";
                 txtpass.Foreground = Brushes.LightGray;
+            }
+        }
+        #endregion
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(txtname.Text == "")
+            {
+                MessageBox.Show("Please provide us a username");
+            }
+            else if (txtpass.Password == "")
+            {
+                MessageBox.Show("Please provide us a username");
+            }
+            else
+            {
+                ErrorLog elog = new ErrorLog();
+                LoggedUser objUser = new LoggedUser();
+         
+                objUser.USERNAME = txtname.Text.ToLower();
+                objUser.PASSWORD = txtpass.Password;
+                ManagementServices objServices = new ManagementServices();
+                DataSet dsUser = objServices.VerfiyingUserServices(objUser, ref elog);
+                if (dsUser != null && dsUser.Tables[0].Rows.Count > 0)
+                {
+                    MessageBox.Show("User is attenticated");
+                }
             }
         }
     }

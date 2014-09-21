@@ -1,0 +1,44 @@
+﻿<Controls:MetroWindow x:Class="Presentations.Pages.PatientRegistration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Patient  Registration" Height="614.211" Width="1728.947" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Content="Settings" />
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"
+                          />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0"
+                   VerticalAlignment="Center"
+                   Text="Version 1.0" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
+    <Grid>
+        <TextBox x:Name="txtPname" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Margin="411,303,0,0" ToolTip="Patient Name" Cursor="IBeam"/>
+        <TextBox x:Name="txtPfname" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="285" Margin="411,334,0,0" Cursor="IBeam" ToolTip="Patient Father Name"/>
+        <TextBox x:Name="txtPaddress" HorizontalAlignment="Left" Height="60" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Margin="411,365,0,0" ToolTip="Patient Address" Cursor="IBeam"/>
+        <Label x:Name="lblPname" Content="Name :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="296,300,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="lblPfname" Content="Father Name :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="296,331,0,0" FontSize="14" FontWeight="Bold" FontFamily="Segoe UI Semibold"/>
+        <Label x:Name="lblPaddress" Content="Address :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="296,360,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" FontSize="14"/>
+        <Label Content="PATIENT REGISTRATION" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="539,207,0,0" FontSize="24" FontFamily="Cooper Black" FontWeight="Bold" Background="White" Foreground="#FF15A5E8"/>
+        <Label x:Name="lblPcontactno" Content="Contact # :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="716,298,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="lblPcnic" Content="CNIC # :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="716,329,0,0" FontFamily="Segoe UI Semibold" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="lblPreferncedby" Content="Refernced By :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="716,360,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txtPcontactno" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Margin="837,298,0,0" Cursor="IBeam" ToolTip="Patient Contact No"/>
+        <TextBox x:Name="txtPcnic" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="285" Margin="837,329,0,0" Cursor="IBeam" ToolTip="Patient CNIC"/>
+        <TextBox x:Name="txtPrefencedby" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" Margin="837,360,0,0" Cursor="IBeam" ToolTip="Patient Referenced By"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" Margin="827,452,0,0" Cursor="Hand" Click="Button_Click_1"/>
+        <Button Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" Margin="520,452,0,0" Cursor="Hand" Click="Button_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>

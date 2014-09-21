@@ -6,3 +6,22 @@ C:\Users\Khadija Wazir\Documents\PatientManagement\Repository\bin\Debug\MahApps.
 C:\Users\Khadija Wazir\Documents\PatientManagement\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Khadija Wazir\Documents\PatientManagement\Repository\obj\Debug\Repository.dll
 C:\Users\Khadija Wazir\Documents\PatientManagement\Repository\obj\Debug\Repository.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\Repository.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\Repository.pdb
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\DAL.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\ErrorLogNet.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\MahApps.Metro.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\bin\Debug\MahApps.Metro.xml
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.dll
+C:\Users\M.Bashir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.pdb
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\Repository.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\Repository.pdb
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\DAL.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\ErrorLogNet.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\MahApps.Metro.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\MahApps.Metro.xml
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.dll
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.pdb
