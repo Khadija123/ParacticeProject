@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using Repository.Class_Files;
 
 namespace Presentations.Pages
 {
@@ -20,9 +21,19 @@ namespace Presentations.Pages
     /// </summary>
     public partial class frmBookingDashboard
     {
-        public frmBookingDashboard()
+        LoggedUser MobjUser;
+        public frmBookingDashboard(LoggedUser User)
         {
+            MobjUser = User;
             InitializeComponent();
+            this.Title = "Hello, "+MobjUser.FULLNAME;
+        }
+
+        private void btnpatientregistration_Click(object sender, RoutedEventArgs e)
+        {
+            PatientRegistration pr = new PatientRegistration();
+            pr.ShowDialog();
+            this.Close();
         }
     }
 }

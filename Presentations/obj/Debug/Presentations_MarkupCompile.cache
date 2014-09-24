@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\obj\Debug\
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\obj\Debug\
 Presentations
 none
 false
 DEBUG;TRACE
-C:\Users\M.Bashir\Source\Repos\ParacticeProject\Presentations\App.xaml
-31990535416
+C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\App.xaml
+5-457498232
 
-7390622006
-18845369561
-MainWindow.xaml;Pages\frmBookingDashboard.xaml;Pages\frmPatientRegistration.xaml;
+91976791892
+18-999241791
+MainWindow.xaml;Pages\frmBookingDashboard.xaml;Pages\frmLogin.xaml;Pages\PatientRegistration.xaml;Pages\TestPage.xaml;
 pages\splashscreen1.png
 False
 

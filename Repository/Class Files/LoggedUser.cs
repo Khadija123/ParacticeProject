@@ -12,7 +12,7 @@ namespace Repository.Class_Files
         public string PASSWORD { get; set; }
         public string FULLNAME { get; set; }
         public int ROLEID { get; set; }
-
+        public int USERID { get; set; }
 
     }
 }

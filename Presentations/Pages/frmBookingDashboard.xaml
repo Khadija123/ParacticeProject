@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        Title="frmBookingDashboard" Height="300" Width="300">
+        Title="frmBookingDashboard" Height="800" Width="1000" WindowState="Maximized">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Content="Settings" />
@@ -23,6 +23,81 @@
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
     <Grid>
-        
+        <!--<StackPanel Width="750" HorizontalAlignment="Left" Margin="15,0,0,0" >
+            <StackPanel Height="200" VerticalAlignment="Center" Margin="0,200,0,0" Background="AliceBlue">
+                <WrapPanel>
+                    <Button Content="  Book Reservation" Height="200"  Width="240" Background="Purple" HorizontalAlignment="Left">
+                        
+                    </Button>
+                    <Button Content="  View Booking" Height="200" Width="240" Background="Violet" Margin="15,0,0,0"></Button>
+                    <Button Content="  Register a Patient" Height="200" Width="240" Background="CadetBlue" Margin="15,0,0,0"></Button>
+                </WrapPanel>
+            </StackPanel>
+            <StackPanel Height="200" VerticalAlignment="Center" Margin="0,15,0,0">
+                <WrapPanel>
+                    <Button Content="  View Patient" Height="200" Width="240" Background="Firebrick" ></Button>
+                    <Button Content="  Log Out" Height="200" Width="495" Background="Firebrick" Margin="15,0,0,0" ></Button>
+                </WrapPanel>
+            </StackPanel>
+        </StackPanel>-->
+
+
+        <Grid>
+            <Button x:Name="btnpatientregistration" HorizontalAlignment="Left" Margin="95,224,0,0" VerticalAlignment="Top" Width="330" Height="169" Background="#5937B2" BorderThickness="0" ToolTip="Patient Registration" Cursor="Hand" Click="btnpatientregistration_Click">
+                <StackPanel>
+                    <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\multiple25.png"  Width="217" Height="115"/>
+                    <Label Content="Patient Registration" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="30" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="168"/>
+                </StackPanel>
+
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button x:Name="btnbooking" HorizontalAlignment="Left" Margin="95,400,0,0" VerticalAlignment="Top" Width="330" Height="169" Background="#2C88EF" BorderThickness="0" ToolTip="Booking Reservation" Cursor="Hand">
+                <StackPanel>
+                    <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\address7.png"  Width="217" Height="115"/>
+                    <Label Content="Booking Reservation" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
+                </StackPanel>
+
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button x:Name="btnlogout" HorizontalAlignment="Left" Margin="435,399,0,0" VerticalAlignment="Top" Width="427" Height="169" Background="#018F19" BorderThickness="0" ToolTip="LogOut" Cursor="Hand">
+                <StackPanel>
+                    <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\lock28.png"  Width="217" Height="115"/>
+                    <Label Content="Log Out" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
+                </StackPanel>
+
+            </Button>
+        </Grid>
+
+
+        <Grid>
+            <Button x:Name="btnviewpatient" HorizontalAlignment="Left" Margin="436,223,0,0" VerticalAlignment="Top" Width="210" Height="169" Background="#701562" BorderThickness="0" ToolTip="View All Patients" Cursor="Hand">
+                <StackPanel>
+                    <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\patient2.png"  Width="217" Height="115"/>
+                    <Label Content="View All Patients" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
+                </StackPanel>
+
+            </Button>
+        </Grid>
+        <Grid>
+            <Button x:Name="btnviewbooking" HorizontalAlignment="Left" Margin="652,224,0,0" VerticalAlignment="Top" Width="210" Height="169" Background="#D4532B" BorderThickness="0" ToolTip="View All Booking" Cursor="Hand">
+                <StackPanel>
+                    <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\person58.png"  Width="181" Height="115"/>
+                    <Label Content="View All Bookings" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
+                </StackPanel>
+
+            </Button>
+        </Grid>
+
     </Grid>
+
+
+
+
+
+
+
 </Controls:MetroWindow>

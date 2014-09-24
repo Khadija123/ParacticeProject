@@ -93,9 +93,24 @@ namespace Presentations.Pages
                 objUser.PASSWORD = txtpass.Password;
                 ManagementServices objServices = new ManagementServices();
                 DataSet dsUser = objServices.VerfiyingUserServices(objUser, ref elog);
+                DataRow drow = dsUser.Tables[0].Rows[0];
+                objUser.ROLEID = Convert.ToInt32(drow["user_role"].ToString());
+                objUser.FULLNAME = drow["user_fullname"].ToString();
+                objUser.USERID =Convert.ToInt32( drow["user_id"].ToString());
                 if (dsUser != null && dsUser.Tables[0].Rows.Count > 0)
                 {
-                    MessageBox.Show("User is attenticated");
+                    if(objUser.ROLEID==1)
+                    {
+                        frmBookingDashboard obj = new frmBookingDashboard(objUser);
+                        this.ShowInTaskbar = false;
+                        obj.Show();
+                        this.Close();
+                        this.ShowInTaskbar = true;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("You have entered invalid credentials");
                 }
             }
         }

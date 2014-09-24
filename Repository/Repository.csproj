@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class Files\BCManagePatients.cs" />
     <Compile Include="Class Files\BCPatientRegistration.cs" />
     <Compile Include="Class Files\BCPropOfPatient.cs" />
     <Compile Include="Class Files\LoggedUser.cs" />
