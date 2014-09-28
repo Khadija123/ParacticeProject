@@ -11,20 +11,31 @@ using System.Data.SqlClient;
 
 namespace Repository.Class_Files
 {
-    class BCManagePatients
+    public class BCManagePatients
     {
         ErrorLog elog = new ErrorLog();
         DbManager dbm = new DbManager();
 
+        public DateTime fromDate { get; set; }
+        public DateTime toDate { get; set; }
+        public string patient_name{ get; set; }
 
-
-        public DataSet fillingPatient()
+        public DataSet fillingPatient(ref ErrorLog elog)
         {
-            return dbm.GetDS(ref elog, null, "sp_patientview");
 
+            List<SqlParameter> param = new List<SqlParameter>();
+            //param.Add(dbm.InParam("@Name", SqlDbType.VarChar, 50, patient_name));
+            param.Add(dbm.InParam("@Name", SqlDbType.VarChar, 50, patient_name));
+            param.Add(dbm.InParam("@From_Date", SqlDbType.Date, 8, fromDate));
+            param.Add(dbm.InParam("@To_Date", SqlDbType.Date, 8, toDate));
+            return dbm.GetDS(ref elog, param, "ShowingPatientRecords");
         }
 
-
+        public DataSet fillingGV(ref ErrorLog elog)
+        {
+            return dbm.GetDS(ref elog, null, "[sp_gvpatient]");
+            
+        }
 
 
 

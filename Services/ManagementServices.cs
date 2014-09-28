@@ -29,5 +29,11 @@ namespace Services
             return objPR.PatientInsertion(ref elog, objPropOfPatient);
         }
         #endregion
+        public DataSet FillingGridviewOfAllPatientRecord(ref ErrorLog elog)
+        {
+            BCManagePatients mp = new BCManagePatients();
+            return mp.fillingGV(ref elog);
+        }
+       
     }
 }

@@ -13,7 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
 using Repository.Class_Files;
-
+using System.Windows.Navigation;
+//using System.Windows.Shapes;
 namespace Presentations.Pages
 {
     /// <summary>
@@ -34,6 +35,25 @@ namespace Presentations.Pages
             PatientRegistration pr = new PatientRegistration();
             pr.ShowDialog();
             this.Close();
+        }
+
+        private void btnviewpatient_Click(object sender, RoutedEventArgs e)
+        {
+            ManagePatients mp = new ManagePatients();
+            mp.ShowDialog();
+        }
+
+        private void btnlogout_Click(object sender, RoutedEventArgs e)
+        {
+            //string url = "/Pages/frmLogin.xaml";
+            //MainWindow bblock = new MainWindow();
+            //bblock.LinkNavigator.Navigate(new Uri(url, UriKind.Relative), this, NavigationHelper.FrameSelf);
+        }
+
+        private void btnbooking_Click(object sender, RoutedEventArgs e)
+        {
+            frmbookingreservation fmbookingreserve = new frmbookingreservation();
+            fmbookingreserve.Show();
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\App.xaml
-6-1938917139
+81713869115
 
-14-213301523
+16-2026212775
 18-999241791
-MainWindow.xaml;Pages\frmBookingDashboard.xaml;Pages\frmLogin.xaml;Pages\ManagePatients.xaml;Pages\PatientRegistration.xaml;Pages\TestPage.xaml;
-pages\splashscreen1.png
+MainWindow.xaml;Pages\frmBookingDashboard.xaml;Pages\frmbookingreservation.xaml;Pages\frmLogin.xaml;Pages\frmschedule.xaml;Pages\ManagePatients.xaml;Pages\PatientRegistration.xaml;Pages\TestPage.xaml;
+
 False
 

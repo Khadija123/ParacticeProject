@@ -73,8 +73,6 @@ namespace Presentations {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            SplashScreen splashScreen = new SplashScreen("pages/splashscreen1.png");
-            splashScreen.Show(true);
             Presentations.App app = new Presentations.App();
             app.InitializeComponent();
             app.Run();

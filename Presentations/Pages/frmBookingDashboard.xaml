@@ -53,7 +53,7 @@
         </Grid>
 
         <Grid>
-            <Button x:Name="btnbooking" HorizontalAlignment="Left" Margin="95,400,0,0" VerticalAlignment="Top" Width="330" Height="169" Background="#2C88EF" BorderThickness="0" ToolTip="Booking Reservation" Cursor="Hand">
+            <Button x:Name="btnbooking" HorizontalAlignment="Left" Margin="95,400,0,0" VerticalAlignment="Top" Width="330" Height="169" Background="#2C88EF" BorderThickness="0" ToolTip="Booking Reservation" Cursor="Hand" Click="btnbooking_Click">
                 <StackPanel>
                     <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\address7.png"  Width="217" Height="115"/>
                     <Label Content="Booking Reservation" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
@@ -63,7 +63,7 @@
         </Grid>
 
         <Grid>
-            <Button x:Name="btnlogout" HorizontalAlignment="Left" Margin="435,399,0,0" VerticalAlignment="Top" Width="427" Height="169" Background="#018F19" BorderThickness="0" ToolTip="LogOut" Cursor="Hand">
+            <Button x:Name="btnlogout" HorizontalAlignment="Left" Margin="435,399,0,0" VerticalAlignment="Top" Width="427" Height="169" Background="#018F19" BorderThickness="0" ToolTip="LogOut" Cursor="Hand" Click="btnlogout_Click">
                 <StackPanel>
                     <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\lock28.png"  Width="217" Height="115"/>
                     <Label Content="Log Out" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>
@@ -74,7 +74,7 @@
 
 
         <Grid>
-            <Button x:Name="btnviewpatient" HorizontalAlignment="Left" Margin="436,223,0,0" VerticalAlignment="Top" Width="210" Height="169" Background="#701562" BorderThickness="0" ToolTip="View All Patients" Cursor="Hand">
+            <Button x:Name="btnviewpatient" HorizontalAlignment="Left" Margin="436,223,0,0" VerticalAlignment="Top" Width="210" Height="169" Background="#701562" BorderThickness="0" ToolTip="View All Patients" Cursor="Hand" Click="btnviewpatient_Click">
                 <StackPanel>
                     <Image Source="C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Presentations\Images\patient2.png"  Width="217" Height="115"/>
                     <Label Content="View All Patients" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="31" Foreground="White" FontFamily="Microsoft PhagsPa" FontWeight="Normal" Width="183"/>

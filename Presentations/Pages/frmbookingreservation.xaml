@@ -1,0 +1,15 @@
+﻿<Controls:MetroWindow x:Class="Presentations.Pages.frmbookingreservation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="frmbookingreservation" Height="500" Width="500" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <DatePicker HorizontalAlignment="Left" Margin="222,80,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Booking Appointment Time" HorizontalAlignment="Left" Margin="44,80,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="222,111,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Booking Appointment #" HorizontalAlignment="Left" Margin="44,111,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="222,142,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Booking Cancelation" HorizontalAlignment="Left" Margin="64,142,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Controls:MetroWindow>

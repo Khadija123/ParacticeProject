@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        Title="ManagePatients" Height="300" Width="300">
+        Title="ManagePatients" Height="856.716" Width="1128.358" WindowState="Maximized">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
             <Button Content="Settings" />
@@ -22,24 +22,33 @@
             </Button>
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
-    <Grid>
-        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Height="259" Width="282" Name="GVpatient" SelectionChanged="GVpatient_SelectionChanged" Loaded="GVpatient_Loaded">
+    <Grid Margin="10,160,0,0">
+        
+        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" Name="GVpatient" SelectionChanged="GVpatient_SelectionChanged" Loaded="GVpatient_Loaded" AutoGenerateColumns="False"  >
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding patient_id}" Header="Patient ID" Foreground="Black"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding create_date}" Header="Create Date" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_name}" Header="Name" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_fname}" Header="Father Name" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_address}" Header="Address" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_contactno}" Header="Contact #" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_CNICno}" Header="CNIC #" Foreground="Black"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding patient_referencedBy }" Header="Referenced By" Foreground="Black"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding create_date}" Header="Create Date" Foreground="Black"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding create_user}" Header="Create User" Foreground="Black"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding update_date}" Header="Update Date" Foreground="Black"></DataGridTextColumn>
-                <DataGridTextColumn Binding="{Binding update_user}" Header="Update User" Foreground="Black"></DataGridTextColumn>
-              
+                
+                <DataGridTextColumn Binding="{Binding create_user}" Header="Create User"  Visibility="Hidden" Foreground="Black"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding update_date}" Header="Update Date" Visibility="Hidden" Foreground="Black"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding update_user}" Header="Update User" Visibility="Hidden" Foreground="Black"></DataGridTextColumn>
+
             </DataGrid.Columns>
 
         </DataGrid>
+        <Label Content="To Date" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="445,-113,0,0"/>
+        <Label Content="From Date" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="107,-113,0,0"/>
+        <DatePicker x:Name="dpfrmDate" HorizontalAlignment="Left" Margin="198,-113,0,0" VerticalAlignment="Top" Width="170"/>
+        <DatePicker x:Name="dpToDate" HorizontalAlignment="Left" Margin="525,-113,0,0" VerticalAlignment="Top" Width="151"/>
+        <Button x:Name="btnsearch" Content="Search" HorizontalAlignment="Left" Margin="775,-112,0,0" VerticalAlignment="Top" Width="127" Click="btnsearch_Click"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="23" Margin="376,-58,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="233"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="261,-59,0,0"/>
 
     </Grid>
 </Controls:MetroWindow>

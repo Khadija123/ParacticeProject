@@ -81,7 +81,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\frmbookingreservation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\frmLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\frmschedule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -102,8 +110,14 @@
     <Compile Include="Pages\frmBookingDashboard.xaml.cs">
       <DependentUpon>frmBookingDashboard.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\frmbookingreservation.xaml.cs">
+      <DependentUpon>frmbookingreservation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\frmLogin.xaml.cs">
       <DependentUpon>frmLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmschedule.xaml.cs">
+      <DependentUpon>frmschedule.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ManagePatients.xaml.cs">
       <DependentUpon>ManagePatients.xaml</DependentUpon>
@@ -142,7 +156,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <SplashScreen Include="Pages\SplashScreen1.png" />
+    <None Include="Pages\SplashScreen1.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\bg.jpg">
