@@ -77,6 +77,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\createAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\frmBookingDashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -107,6 +111,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\createAccount.xaml.cs">
+      <DependentUpon>createAccount.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\frmBookingDashboard.xaml.cs">
       <DependentUpon>frmBookingDashboard.xaml</DependentUpon>
     </Compile>
@@ -195,6 +202,22 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\person58.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\square58.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\csfh_img_9648.jpg" />
+    <Resource Include="Images\Dna_wallpapers_163.jpg" />
+    <Resource Include="Images\ecg-pulse-wallpaper3-e1335845804594.jpg" />
+    <Resource Include="Images\hospital.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\stethoscope-backgrounds-wallpapers-697x340.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

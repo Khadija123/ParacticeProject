@@ -35,5 +35,16 @@ namespace Services
             return mp.fillingGV(ref elog);
         }
        
+        public int SchedulePatientServices(ref ErrorLog elog, BCscheduleProperties objP)
+        {
+            BCschedule objpp = new BCschedule();
+            return objpp.schedulePatients(ref elog, objP);
+        }
+
+        public int signedupservices (SignedUser userr, ref ErrorLog elog)
+        {
+            BCsignedUP obj = new BCsignedUP();
+            return obj.userSigningUP(ref elog, userr.Sfirstname, userr.Slastname, userr.Semail, userr.Spasswaord,userr.SUsername);
+        }
     }
 }

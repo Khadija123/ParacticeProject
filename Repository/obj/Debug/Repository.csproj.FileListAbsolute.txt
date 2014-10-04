@@ -25,4 +25,3 @@ C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\System
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\bin\Debug\MahApps.Metro.xml
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.dll
 C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.pdb
-C:\Users\Khadija Wazir\Source\Repos\ParacticeProject\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache

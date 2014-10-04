@@ -45,7 +45,7 @@
             <Button Content="Member sign in" Background="#FF0C2B0A" Height="42" Width="324" HorizontalAlignment="Center" Margin="10" Click="Button_Click"/>
            
             <Label Content="------------------------------- OR --------------------------------" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20" />
-            <Button Content="Create Account" Background="LightBlue" HorizontalAlignment="Center" VerticalAlignment="Top" Width="324" Height="42" Margin="10"/>
+            <Button Content="Don't have An Account" Background="LightBlue" HorizontalAlignment="Center" VerticalAlignment="Top" Width="324" Height="42" Margin="10" Click="Button_Click_1"/>
 
             <!--<Hyperlink Click="Hyperlink_Click"     FontSize="15" Foreground="DarkGreen"><Run Text="Forgot Password?"/></Hyperlink>-->
 

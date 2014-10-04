@@ -55,5 +55,11 @@ namespace Presentations.Pages
             frmbookingreservation fmbookingreserve = new frmbookingreservation();
             fmbookingreserve.Show();
         }
+
+        private void btnschedule_Click(object sender, RoutedEventArgs e)
+        {
+            frmschedule sch = new frmschedule();
+            sch.Show();
+        }
     }
 }

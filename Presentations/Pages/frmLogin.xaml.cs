@@ -78,11 +78,11 @@ namespace Presentations.Pages
         {
             if(txtname.Text == "")
             {
-                MessageBox.Show("Please provide us a username");
+                MessageBox.Show("Please provide username");
             }
             else if (txtpass.Password == "")
             {
-                MessageBox.Show("Please provide us a username");
+                MessageBox.Show("Please provide password");
             }
             else
             {
@@ -113,6 +113,12 @@ namespace Presentations.Pages
                     MessageBox.Show("You have entered invalid credentials");
                 }
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            createAccount ca = new createAccount();
+            ca.Show();
         }
     }
 }
